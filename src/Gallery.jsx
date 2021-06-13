@@ -1,10 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import "./styles/posts.css";
 import { useParams, useLocation, Link } from "react-router-dom";
-import axios from "axios";
-import Profile from "./components/Profile";
-import Company from "./components/Company";
-import Address from "./components/Address";
+
 import Header from "./components/Header";
 
 const Gallery = () => {
@@ -17,6 +14,7 @@ const Gallery = () => {
     if (localStorage.getItem("users") === null) {
       localStorage.setItem("users", JSON.stringify(userlist));
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
