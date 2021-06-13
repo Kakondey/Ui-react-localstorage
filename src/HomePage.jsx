@@ -1,6 +1,7 @@
-import { useEffect } from "react";
+// import { useEffect, useState } from "react";
 import "./styles/homepage.css";
 import { useParams, useLocation, Link } from "react-router-dom";
+// import axios from "axios";
 import Profile from "./components/Profile";
 import Company from "./components/Company";
 import Address from "./components/Address";
@@ -11,13 +12,13 @@ const HomePage = () => {
   const { id } = useParams();
   // const [users, setUsers] = useState([]);
   // const [user, setUser] = useState();
-
-  useEffect(() => {
-    if (localStorage.getItem("users") === null) {
-      localStorage.setItem("users", JSON.stringify(userlist));
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  // console.log(userlist);
+  // useEffect(() => {
+  if (localStorage.getItem("users") === null) {
+    localStorage.setItem("users", JSON.stringify(userlist));
+  }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [userlist]);
 
   return (
     <div className="home-main">
