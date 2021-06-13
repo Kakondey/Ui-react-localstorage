@@ -1,0 +1,20 @@
+.profile-data{
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+}
+
+.profile-data img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-data p{
+    text-align: start;
+    padding-left: 90px;
+}
+
+p span {
+    font-weight: 500;
+}

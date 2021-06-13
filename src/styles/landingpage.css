@@ -1,0 +1,50 @@
+.main{
+    margin-top: 100px;
+    margin-left: 35%;
+    width: 355px;
+    border: 3px solid rgb(0, 55, 128);
+    border-radius: 10px;
+    background-color: rgb(0, 55, 128);
+    height: 200px;
+    overflow-x: hidden;
+    justify-content: center;
+
+}
+
+.main::-webkit-scrollbar{
+    width: 5px;
+    
+}
+
+.main::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.main::-webkit-scrollbar-thumb {
+    background: rgb(57, 150, 231);
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid rgb(31, 85, 136);
+    border-radius: 10px;
+    background-color: rgb(57, 150, 231);
+    width: 340px;
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgb(52, 121, 182);
+    cursor: pointer;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(31, 85, 136);
+}

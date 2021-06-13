@@ -1,0 +1,78 @@
+.home-main {
+    display: grid;
+    overflow-y: hidden;
+}
+
+.posts-side-bar {
+    grid-column: 1/2;
+    background: rgb(0, 55, 128);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+
+}
+
+.posts-side-bar a {
+    color: wheat;
+    text-decoration: none;
+    align-self: flex-start;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.posts-side-bar a:hover {
+    cursor: pointer;
+    background-color: rgb(29, 89, 168);
+}
+
+.home-content {
+    grid-column: 2/5;
+    display: grid;
+}
+
+.header {
+    /* background: blue; */
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border-bottom: 2px solid #bbb;
+}
+
+.posts-profile {
+    /* background: rgb(0, 255, 21); */
+    padding: 10px;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    height: 411.38px;
+}
+
+.posts-profile h1{
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 300px;
+    color: rgb(29, 89, 168);
+}
+.posts-company {
+    /* background: rgb(212, 0, 255); */
+    grid-column: 1/2;
+    grid-row: 4/6;
+    height: 150px;
+}
+
+.posts-address {
+    /* background: rgb(255, 196, 0); */
+    grid-column: 2/4;
+    grid-row: 2/6;
+    /* border-left: 2px solid #bbb; */
+    /* height: 607.69px; */
+
+}
+
+
+/* .posts-divider {
+    border-top: 2px solid #bbb;
+    border-radius: 2px;
+} */

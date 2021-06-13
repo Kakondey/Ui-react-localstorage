@@ -1,0 +1,17 @@
+    .address-data{
+        
+    }
+
+    h2{
+        padding-left: 20px;
+        text-align: start;
+    }
+
+    .address-data img{
+        width: 600px;
+    }
+
+    .address-data p{
+        text-align: justify;
+        padding-left: 80px;
+    }
